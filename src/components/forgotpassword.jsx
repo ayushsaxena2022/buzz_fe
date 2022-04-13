@@ -26,7 +26,7 @@ export default function Forgotpassword() {
                 body: JSON.stringify(state),
             });
            const data = await response.json();
-            if (response.status == 201)
+            if (response.status === 201)
                 toast.success(data.message);
             else
                 toast.error(data.message);
@@ -48,7 +48,7 @@ export default function Forgotpassword() {
             });
           const data = await response.json();
             setOtpstate(true);
-            if (response.status == 201)
+            if (response.status === 201)
                 toast.success(data.message);
             else
                 toast.error(data.message);

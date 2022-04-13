@@ -1,4 +1,6 @@
 import FriendBar from './components/FriendBar';
+import topbar from './components/topbar';
+import showcomments from './components/showcomments';
 import './App.css';
 import React from "react"
 import Login from "./components/login.jsx"

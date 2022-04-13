@@ -20,7 +20,7 @@ const FriendBar = (props) => {
                 <div className="friendBar_list" key={user.id} onclick={() => SearchFriend(user)}>
                     <div className="friendBar_list-img">
                         <img src={user.image} alt="user" />
-                    
+
                     </div>
                     <div className="friendBar_list-name">{user.name}</div>
                 </div>
